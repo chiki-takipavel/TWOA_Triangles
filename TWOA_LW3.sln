@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31019.35
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWOA_LW3", "TWOA_LW3\TWOA_LW3.csproj", "{D340EA00-8337-46B8-AE79-6A53FC3E6CF0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TWOA_LW3.Tests", "TWOA_LW3.Tests\TWOA_LW3.Tests.csproj", "{680AD47A-A0DD-471F-985D-9F8BCAA1A6F6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D340EA00-8337-46B8-AE79-6A53FC3E6CF0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D340EA00-8337-46B8-AE79-6A53FC3E6CF0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D340EA00-8337-46B8-AE79-6A53FC3E6CF0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D340EA00-8337-46B8-AE79-6A53FC3E6CF0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{680AD47A-A0DD-471F-985D-9F8BCAA1A6F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{680AD47A-A0DD-471F-985D-9F8BCAA1A6F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{680AD47A-A0DD-471F-985D-9F8BCAA1A6F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{680AD47A-A0DD-471F-985D-9F8BCAA1A6F6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {72CD6EB5-9CCE-4708-BE8A-A5BDECF1EFE1}
+	EndGlobalSection
+EndGlobal
