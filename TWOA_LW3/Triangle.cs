@@ -22,12 +22,12 @@ namespace TWOA_LW3
 
             if (sides.Length != 3)
             {
-                throw new ArgumentException("Number of sides must equal 3.", nameof(sides));
+                throw new ArgumentException("Количество сторон должно ровняться 3.", nameof(sides));
             }
 
             if (sides.Any(x => x <= 0))
             {
-                throw new ArgumentOutOfRangeException(nameof(sides), "Triangle side must be in range [1..2147483647].");
+                throw new ArgumentOutOfRangeException(nameof(sides), "Сторона треугольника должна быть целым числом из диапазона [1..2147483647].");
             }
 
             if (!IsTriangle(sides[0], sides[1], sides[2]))
