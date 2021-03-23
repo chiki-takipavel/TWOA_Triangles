@@ -30,7 +30,7 @@ namespace TWOA_LW3
                 throw new ArgumentOutOfRangeException(nameof(sides), "Сторона треугольника должна быть целым числом из диапазона [1..2147483647].");
             }
 
-            if (!IsTriangle(sides[0], sides[1], sides[2]))
+            if (IsIncorrect(sides[0], sides[1], sides[2]))
             {
                 return TriangleType.Incorrect;
             }
@@ -48,9 +48,9 @@ namespace TWOA_LW3
             return TriangleType.Scalene;
         }
 
-        private static bool IsTriangle(int a, int b, int c)
+        private static bool IsIncorrect(int a, int b, int c)
         {
-            return (a + b > c) && (a + c > b) && (b + c > a);
+            return (a + b <= c) || (a + c <= b) || (b + c <= a);
         }
 
         private static bool IsEquilateral(int a, int b, int c)
